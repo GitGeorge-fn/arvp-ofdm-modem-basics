@@ -5,7 +5,7 @@ module mux #(
     input wire [$clog2(WIDTH)-1:0] select,
     output wire [WIDTH-1:0] out
 );
-//test code
+//test codes
 assign out = in[select];
 
 endmodule
